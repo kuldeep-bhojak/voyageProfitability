@@ -1,0 +1,55 @@
+.wrapper.row{
+    display: flex;
+    
+}
+nav{
+    background-color: #2eaed4;
+    text-align: center;    
+    color: white; 
+    flex: 5%;
+}
+nav .planVoyageContainer{
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 450px;
+    z-index: 1000;
+    top: 52px;
+    left: 53px;
+    position: absolute;
+    height: 100%;
+    border: 1px solid;
+    background-color: white;
+}
+
+.container-fluid{
+    padding-left: 0;
+}
+.hamburger-menu{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+/*Header*/
+.rightContainer{
+    flex: 95%;
+}
+.pageHeader{
+    height: 15vh;
+    max-height: 52px;
+    min-height: 52px;
+    background-color: #2eaed4;
+    padding-top: 20px;
+    color: white;
+}
+.pageHeading{
+    margin:0;
+    font-size: 24px;
+    font-family: sans-sarif;
+    font-weight: bold;
+}
+
+/*Content*/
+.content{
+    background-color: #dddddd;
+    height: 89vh;
+}
