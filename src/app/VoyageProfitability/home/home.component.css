@@ -1,13 +1,23 @@
 .wrapper.row{
     display: flex;
+    
 }
 nav{
     background-color: #2eaed4;
-    height: 100vh;
-    text-align: center;
-    padding: 20px 0;
+    text-align: center;    
     color: white; 
     flex: 5%;
+}
+nav .planVoyageContainer{
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 450px;
+    z-index: 1000;
+    top: 52px;
+    left: 53px;
+    position: absolute;
+    height: 100%;
+    border: 1px solid;
+    background-color: white;
 }
 
 .container-fluid{
@@ -16,6 +26,7 @@ nav{
 .hamburger-menu{
     font-size: 20px;
     margin-left: 15px;
+    margin-top: 20px;
 }
 
 /*Header*/
@@ -23,7 +34,9 @@ nav{
     flex: 95%;
 }
 .pageHeader{
-    height: 52px;
+    height: 15vh;
+    max-height: 52px;
+    min-height: 52px;
     background-color: #2eaed4;
     padding-top: 20px;
     color: white;
@@ -38,10 +51,5 @@ nav{
 /*Content*/
 .content{
     background-color: #dddddd;
-    height: 100vh;
-}
-.planVoyageContainer{
-    background-color: white;
-    border: 1px solid grey;
-    box-shadow: 1px solid grey;
+    height: 89vh;
 }
